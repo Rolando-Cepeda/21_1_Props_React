@@ -5,11 +5,12 @@
 function App() {
   return (
     <div className="App">
-      <Welcome name="Rolando"/>
-      <Welcome name="Rolando"/>
-      <WelcomeDOs name="Rolando"/>
-      <WelcomeDOs edad="cuarenta"/>
-      <Welcome apellido="Cepeda"/>
+      <Welcome name="Rolando" apellido="Cepeda" status='single'/>
+      <Welcome name="Sandra" status='single'/>
+      <Welcome name="Eva" status='single'/>
+      <Welcome name="Ricardo" status='single'/>
+      <Welcome name="Pilar" status='single'/>
+      <WelcomeDOs name="Rolando" edad ="18"/>
     </div>
   );
 }
